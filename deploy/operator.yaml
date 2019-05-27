@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-status-operator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: api-status-operator
+  template:
+    metadata:
+      labels:
+        name: api-status-operator
+    spec:
+      serviceAccountName: api-status-operator
+      containers:
+        - name: api-status-operator
+          # Replace this with the built image name
+          image: REPLACE_IMAGE
+          command:
+          - api-status-operator
+          imagePullPolicy: Always
+          env:
+            - name: WATCH_NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: OPERATOR_NAME
+              value: "api-status-operator"
