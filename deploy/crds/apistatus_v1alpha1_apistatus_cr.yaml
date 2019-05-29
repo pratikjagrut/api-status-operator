@@ -1,0 +1,8 @@
+apiVersion: apistatus.example.com/v1alpha1
+kind: ApiStatus
+metadata:
+  name: api-status
+spec:
+  image: quay.io/pratikjagrut/statusapi:0.1.0
+  imageName: statusapi
+  size: 2
