@@ -3,6 +3,7 @@
 ## Overview
 
 This is a simple example of deploying rest api using operator in kubernetes.
+This project uses [this](https://github.com/pratikjagrut/status-rest-api) sample rest api service.
 
 ## Quick Start
 
