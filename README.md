@@ -11,7 +11,6 @@ This quick start guide walks through the process of building the api-status-oper
 
 ### Prerequisites
 
-
 - [dep](https://golang.github.io/dep/docs/installation.html) version v0.5.0+.
 - [go](https://golang.org/dl/) version v1.10+
 - [docker](https://docs.docker.com/install/) version 17.03+
