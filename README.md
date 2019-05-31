@@ -42,7 +42,7 @@ Vendor the dependencies
 $ dep ensure
 ```
 
-### Deploying this operator localy
+### Deploying this operator locally
 
 ```
 $ kubectl apply -f deploy/crds/apistatus_v1alpha1_apistatus_crd.yaml
