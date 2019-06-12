@@ -17,15 +17,7 @@ This quick start guide walks through the process of building the api-status-oper
 - Minikube v1.0.0+ cluster
 
 ### Install the Operator SDK CLI
-
-First, checkout and install the operator-sdk CLI:
-
-```
-$ cd $GOPATH/src/github.com/operator-framework/operator-sdk
-$ git checkout master // currently, there are no releases that include the test framework, so use the master for now
-$ dep ensure
-$ make install github.com/operator-framework/operator-sdk/commands/operator-sdk
-```
+[Installation guide](https://github.com/operator-framework/operator-sdk/blob/master/doc/user/install-operator-sdk.md)
 
 Checkout this API Status Operator repository
 
