@@ -19,7 +19,7 @@ This quick start guide walks through the process of building the api-status-oper
 ### Install the Operator SDK CLI
 [Installation guide](https://github.com/operator-framework/operator-sdk/blob/master/doc/user/install-operator-sdk.md)
 
-Checkout this API Status Operator repository
+### Checkout this API Status Operator repository
 
 ```
 $ mkdir $GOPATH/src/github.com/pratikjagrut
